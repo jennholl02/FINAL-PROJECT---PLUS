@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #24b3c9;
+  margin-top: 15px;
+}
+.row-fluid {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  padding: 20px 10px 10px 0px;
+  color: #24b3c9;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: #fffe9a;
+}
+
+h4 {
+  font-size: 15px;
+  text-align: right;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+h6 {
+  font-size: 18px;
+  text-align: right;
+  padding: 10px 18px 0px 0px;
+}
+
+.mainCity {
+  color: #24b3c9;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.location-search {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: #24b3c9;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+}
+
+.search-bar {
+  width: 30%;
+  border: none;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.time-input {
+  border: none;
+  text-align: center;
+}
+
+#submit-button {
+  font-size: 16px;
+  width: 10%;
+  background-color: #fdd153;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+#submit-button:hover {
+  transform: scale(105%);
+  background-color: white;
+  color: #24b3c9;
+  font-weight: bold;
+}
+
+#current-button {
+  width: 15%;
+  margin-bottom: 5px;
+  margin-left: 75px;
+}
+
+#current-button:hover {
+  transform: scale(125%);
+  background-color: white;
+  color: #24b3c9;
+  font-weight: bold;
+}
+.todays-weather {
+  padding: 15px 15px 15px 15px;
+}
+
+.current-weather-image {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+.current-temp {
+  font-size: 50px;
+  text-align: right;
+  padding: 0px 50px 0px 0px;
+}
+
+#weather-description {
+  text-align: center;
+  font-size: 25px;
+  margin: 25px 50px 0px 0px;
+  text-transform: capitalize;
+}
+
+.weather-variables {
+  font-size: 20px;
+  text-align: left;
+  line-height: 10px;
+  padding: 15px 10px 10px 10px;
+}
+
+.future-weather {
+  width: 200px;
+  padding: 25px 10px 10px 10px;
+}
+
+#five-day {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
